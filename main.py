@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import requests
 import urllib
 import pandas as pd
@@ -44,3 +45,8 @@ def scrape_google(query):
 
 results = scrape_google("Valorant RAM usage")
 print(results[1])
+=======
+from googlesearch import search
+search("Google")
+print(search("Google"))
+>>>>>>> f3729badad90e8c236c3f5c4ffcb8e8744a543d3
