@@ -5,6 +5,7 @@ class app():
             self.gpu = 10
             self.ram = 10
             self.cpu = 10
+            self.name = name
     def getssd(self):
         return self.ssd
     def getram(self):
