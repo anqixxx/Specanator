@@ -1,2 +1,4 @@
 # Specanator
-A user friendly program that choses appropriate computer specs for you based on your prexisting apps
+A user friendly program that choses appropriate computer specs for you based on your prexisting apps.
+First we interface with the user in order to determine what apps that they will use, then we will use efficient sorting algorithms to find recommended specs for GPU, CPU, SSD, and RAM. 
+This project was designed with the idea that most users, while shopping for technology, have no idea what these letters mean in terms of a computer, and often feel induated with data. Therefore one of the most common questions in technology stores pertains to which laptop to choose, as they have no idea how to diffrentiate between these specifications. Our program will make it easier for consumers by directly computing the specifications they will need for their computer, without any hassle or need, allowing a enhanced human-device experience in technology retail stores.
