@@ -22,6 +22,7 @@ applist.add( x )
 y = app("same")
 applist.add( y )
 
+# finds total storage from all the apps given
 for val in applist:
     print( val.getgpu() )
     userStorage.addstorage( val.getssd() )
