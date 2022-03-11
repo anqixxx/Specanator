@@ -1,9 +1,10 @@
-<<<<<<< HEAD
 import requests
 import urllib
 import pandas as pd
 from requests_html import HTML
 from requests_html import HTMLSession
+from app import app
+
 
 def get_source(url):
     """Return the source code for the provided URL. 
@@ -45,8 +46,9 @@ def scrape_google(query):
 
 results = scrape_google("Valorant RAM usage")
 print(results[1])
-=======
-from googlesearch import search
-search("Google")
-print(search("Google"))
->>>>>>> f3729badad90e8c236c3f5c4ffcb8e8744a543d3
+
+# Take in variable/ app name
+# create an app with the app name as an agruement
+# Scrape google for information (Ram & Storage) 
+    # To find the RAM, we keyword search Ram and find the nearest number following it
+    # Storage for the same  
