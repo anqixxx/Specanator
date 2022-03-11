@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import requests
 import urllib
 import pandas as pd
@@ -43,10 +42,9 @@ def scrape_google(query):
 
     return links
 
-results = scrape_google("Valorant RAM usage")
-print(results[1])
-=======
-from googlesearch import search
-search("Google")
-print(search("Google"))
->>>>>>> f3729badad90e8c236c3f5c4ffcb8e8744a543d3
+#results = scrape_google("How much RAM does valorant")
+#print(results[1])
+
+form_data = {'Memory': 'value1', 'Processor': 'value2'}
+response = requests.post("https://store.steampowered.com/app/1245620/ELDEN_RING/", data=form_data)
+print(response.text)
