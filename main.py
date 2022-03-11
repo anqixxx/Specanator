@@ -3,6 +3,8 @@ import urllib
 import pandas as pd
 from requests_html import HTML
 from requests_html import HTMLSession
+from app import app
+
 
 def get_source(url):
     """Return the source code for the provided URL. 
